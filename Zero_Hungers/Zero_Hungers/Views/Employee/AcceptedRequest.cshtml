@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Zero_Hungers.EF.CR>
+
+@{
+    ViewBag.Title = "AcceptedRequest";
+}
+
+<h2>AcceptedRequest</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Iteam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreationTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpireTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RestaurantID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeeID)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Iteam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreationTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpireTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RestaurantID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeID)
+        </td>
+    </tr>
+}
+
+</table>

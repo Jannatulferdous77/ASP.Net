@@ -1,0 +1,18 @@
+﻿﻿@model Zero_Hungers.EF.CR
+@{
+    ViewBag.Title = "AcceptRequest";
+}
+
+<h2>AcceptRequest</h2>
+
+<form method="post">
+    <input type="hidden" name="CRID" value="@Model.CRID" />
+    <input type="hidden" name="Iteam" value="@Model.Iteam" />
+    <input type="hidden" name="CreationTime" value="@Model.CreationTime" />
+    <input type="hidden" name="ExpiredTime" value="@Model.ExpireTime" />
+    <input type="hidden" name="RestaurantID" value="@Model.RestaurantID" />
+    <input type="hidden" name="Status" value="@Model.Status" />
+    <input type="hidden" name="EmployeeID" value="@Model.EmployeeID" />
+    <input type="submit" value="Accept" class="btn btn-danger" />
+    <a href="/Employee/Index" class="btn btn-primary">Cancel</a>
+</form>
