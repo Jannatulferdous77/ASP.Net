@@ -247,6 +247,7 @@
     <Content Include="Views\Employee\AcceptRequest.cshtml" />
     <Content Include="Views\Employee\AcceptedRequest.cshtml" />
     <Content Include="Views\Restaurant\History.cshtml" />
+    <Content Include="Views\Restaurant\Registration.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

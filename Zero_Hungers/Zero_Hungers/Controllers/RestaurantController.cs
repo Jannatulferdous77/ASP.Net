@@ -83,5 +83,45 @@ namespace Zero_Hungers.Controllers
             return View(data);
         }
 
+
+        [HttpGet]
+        public ActionResult Registration()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Registration(Restaurant d)
+        {
+            if (ModelState.IsValid)
+            {
+
+                var db = new Zero_HungersEntities2();
+                if (db.Restaurants.Any(s => s.Email == d.Email))
+                {
+                    ModelState.AddModelError("RestauranEmail", "This Email already used, try another Email");
+                    return View();
+                }
+
+
+
+
+
+
+
+
+                db.Restaurants.Add(d);
+                db.SaveChanges();
+
+                return RedirectToAction("Login", "Restaurant");
+            }
+            else
+            {
+                ModelState.AddModelError("", "Please fill in all required fields.");
+            }
+
+            return View();
+        }
+
     }
 }
