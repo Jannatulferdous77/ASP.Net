@@ -1,0 +1,15 @@
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\BLL.exe.config
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\BLL.exe
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\BLL.pdb
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\DAL.exe
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\DAL.pdb
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\DAL.exe.config
+E:\ASPDotNet\IntoLayer\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\ASPDotNet\IntoLayer\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\ASPDotNet\IntoLayer\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\ASPDotNet\IntoLayer\BLL\obj\Debug\BLL.exe
+E:\ASPDotNet\IntoLayer\BLL\obj\Debug\BLL.pdb
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\EntityFramework.dll
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\EntityFramework.xml
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\AutoMapper.dll
+E:\ASPDotNet\IntoLayer\BLL\bin\Debug\AutoMapper.xml

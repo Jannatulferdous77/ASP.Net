@@ -1,0 +1,15 @@
+E:\ASPDotNet\IntoLayer\DAL\bin\Debug\DAL.exe.config
+E:\ASPDotNet\IntoLayer\DAL\bin\Debug\DAL.exe
+E:\ASPDotNet\IntoLayer\DAL\bin\Debug\DAL.pdb
+E:\ASPDotNet\IntoLayer\DAL\bin\Debug\EntityFramework.dll
+E:\ASPDotNet\IntoLayer\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\ASPDotNet\IntoLayer\DAL\bin\Debug\EntityFramework.xml
+E:\ASPDotNet\IntoLayer\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.exe
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.pdb
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.Migrations.initDb.resources
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\ASPDotNet\IntoLayer\DAL\obj\Debug\DAL.Migrations.upData.resources
